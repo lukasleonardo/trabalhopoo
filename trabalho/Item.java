@@ -48,7 +48,7 @@ public class Item {
 	}
 
 	public String toString() {
-		return "Item [ped=" + ped.getNumero() + ", prod=" + prod.getPreco() + ", qtd=" + qtd + ", sequencial=" + sequencial + "]";
+		return "Item [ped=" + ped.getNumero() + ", prod=" + prod.getNome() + ", qtd=" + qtd + ", sequencial=" + sequencial + "]";
 	}
 
 }
