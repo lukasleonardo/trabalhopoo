@@ -39,35 +39,27 @@ public class Main {
 
                 // Objetos da Classe Cliente
 
-                /*
-                 * System.out.println("Digite o cpf" );
-                 * String cpf = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do cliente" );
-                 * String nome = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do endereco" );
-                 * String endereco = leitor.nextLine();
-                 */
-                String cpf, nome, endereco;
-                cpf = "1";
-                nome = "opa";
-                endereco = "rua1";
+                System.out.println("Digite o cpf" );
+                String cpf = leitor.nextLine();
+                
+                System.out.println("Digite o nome do cliente" );
+                String nome = leitor.nextLine();
+                
+                System.out.println("Digite o nome do endereco" );
+                String endereco = leitor.nextLine();
+                
+
                 Cliente c1 = new Cliente(cpf, nome, endereco);
                 // ********************************************
                 nome = null;
                 cpf = null;
 
-                /*
-                 * System.out.println("Digite o cpf" );
-                 * cpf = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do cliente" );
-                 * nome = leitor.nextLine();
-                 */
+                System.out.println("Digite o cpf" );
+                cpf = leitor.nextLine();
+                
+                System.out.println("Digite o nome do cliente" );
+                nome = leitor.nextLine();
 
-                cpf = "2";
-                nome = "ola";
 
                 Cliente c2 = new Cliente(cpf, nome);
 
@@ -79,26 +71,18 @@ public class Main {
                 // *****************************************
 
                 // Objetos da Classe Produto
-                /*
-                 * System.out.println("Digite o codigo do produto" );
-                 * String codigo = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do produto" );
-                 * nome = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o preco do produto" );
-                 * double preco = Float.parseFloat(leitor.nextLine());
-                 * 
-                 * System.out.println("Digite o quantidade do produto" );
-                 * double qtdestoque = Float.parseFloat(leitor.nextLine());
-                 */
+                System.out.println("Digite o codigo do produto" );
+                String codigo = leitor.nextLine();
+                
+                System.out.println("Digite o nome do produto" );
+                nome = leitor.nextLine();
+                
+                System.out.println("Digite o preco do produto" );
+                double preco = Float.parseFloat(leitor.nextLine());
+                
+                System.out.println("Digite o quantidade do produto" );
+                double qtdestoque = Float.parseFloat(leitor.nextLine());
 
-                String codigo;
-                double preco, qtdestoque;
-                codigo = "cc1";
-                nome = "produto1";
-                preco = 20.0;
-                qtdestoque = 300;
                 Produto p1 = new Produto(codigo, nome, preco, qtdestoque);
 
                 nome = null;
@@ -106,24 +90,18 @@ public class Main {
                 preco = 0.0;
                 qtdestoque = 0.0;
                 // *************************************************
-                /*
-                 * System.out.println("Digite o codigo do produto" );
-                 * codigo = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do produto" );
-                 * nome = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o preco do produto" );
-                 * preco = Float.parseFloat(leitor.nextLine());
-                 * 
-                 * System.out.println("Digite o qtd em estoque do produto" );
-                 * qtdestoque = Float.parseFloat(leitor.nextLine());
-                 */
+                System.out.println("Digite o codigo do produto" );
+                codigo = leitor.nextLine();
+         
+                System.out.println("Digite o nome do produto" );
+                nome = leitor.nextLine();
+                
+                System.out.println("Digite o preco do produto" );
+                preco = Float.parseFloat(leitor.nextLine());
+                
+                System.out.println("Digite o qtd em estoque do produto" );
+                qtdestoque = Float.parseFloat(leitor.nextLine());
 
-                codigo = "cc2";
-                nome = "produto2";
-                preco = 10.1;
-                qtdestoque = 200;
                 Produto p2 = new Produto(codigo, nome, preco, qtdestoque);
 
                 nome = null;
@@ -132,23 +110,19 @@ public class Main {
                 qtdestoque = 0.0;
                 // *****************************************************
 
-                /*
-                 * System.out.println("Digite o codigo do produto" );
-                 * codigo = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o nome do produto" );
-                 * nome = leitor.nextLine();
-                 * 
-                 * System.out.println("Digite o preco do produto" );
-                 * preco = Float.parseFloat(leitor.nextLine());
-                 * 
-                 * System.out.println("Digite o qtd em estoque do produto" );
-                 * qtdestoque = Float.parseFloat(leitor.nextLine());
-                 */
-                codigo = "c3";
-                nome = "produto3";
-                preco = 10;
-                qtdestoque = 400;
+                
+                System.out.println("Digite o codigo do produto" );
+                codigo = leitor.nextLine();
+                
+                System.out.println("Digite o nome do produto" );
+                nome = leitor.nextLine();
+                 
+                System.out.println("Digite o preco do produto" );
+                preco = Float.parseFloat(leitor.nextLine());
+                
+                System.out.println("Digite o qtd em estoque do produto" );
+                qtdestoque = Float.parseFloat(leitor.nextLine());
+
                 Produto p3 = new Produto(codigo, nome, preco, qtdestoque);
 
                 nome = null;
@@ -163,30 +137,25 @@ public class Main {
 
                 // *Objetos da Classe Pedido*/
 
-                
-/*                 System.out.println("Digite o numero do pedido");
+                System.out.println("Digite o numero do pedido");
                 String numero = leitor.nextLine();
         
                 System.out.println("Digite o data a data de compra");
-                String data = leitor.nextLine(); */
+                String data = leitor.nextLine(); 
                 
-                String numero, data;
-                numero = "01";
-                data = "22/01/05";
+
                 Pedido pedido1 = new Pedido(numero, data, c1);
 
                 numero = null;
                 data = null;
 
-                
-/*                 System.out.println("Digite o numero do pedido" );
+                System.out.println("Digite o numero do pedido" );
                 numero = leitor.nextLine();
                   
                 System.out.println("Digite o data a data de compra" );
-                data = leitor.nextLine(); */
+                data = leitor.nextLine(); 
                  
-                numero = "02";
-                data = "13/04/05";
+
                 Pedido pedido2 = new Pedido(numero, data, c2);
                 // ********************************************** */
 
@@ -241,9 +210,17 @@ public class Main {
                 pedido2.setItens(item4); 
                 pedido2.setSituacao(StatusPedido.ATENDIDO);
                 System.out.println(pedido1.toString());
-
-       
                 System.out.println(pedido2.toString());
+
+                for (Item item  : pedido1.getItens() ) {
+                        System.out.println(item);
+                }
+
+                for (Item item  : pedido2.getItens() ) {
+                        System.out.println(item);
+                }
+
+
                 leitor.close();
         }
 }

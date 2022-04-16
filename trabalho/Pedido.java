@@ -68,7 +68,6 @@ public class Pedido {
 
 	public void setItens(Item item) {
 		this.itens.add(item);
-		this.setValor(valor);
 
 	}
 
